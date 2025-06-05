@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-i18n",
+  "name": "next-intl-routing",
   "private": true,
   "scripts": {
     "dev": "next dev --turbo --port 3005",
