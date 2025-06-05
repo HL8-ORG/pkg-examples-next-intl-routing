@@ -1,8 +1,8 @@
 {
-  "name": "example-app-router",
+  "name": "nextjs-i18n",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev --turbo --port 3005",
     "lint": "eslint src && tsc && prettier src --check",
     "test": "pnpm run test:playwright && pnpm run test:jest",
     "test:playwright": "playwright test",
@@ -19,6 +19,7 @@
     "tailwindcss": "^3.4.4"
   },
   "devDependencies": {
+    "@pkg/tsconfig": "workspace:*",
     "@eslint/eslintrc": "^3.1.0",
     "@jest/globals": "^29.7.0",
     "@playwright/test": "^1.51.0",

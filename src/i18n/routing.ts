@@ -5,6 +5,7 @@ import {defineRouting} from 'next-intl/routing';
  * 
  * @remarks
  * 该配置定义了应用支持的语言、默认语言以及特定路径的多语言映射
+ * 这份配置我们需要交给中间件做处理
  * 
  * @example
  * // 访问英文版首页
